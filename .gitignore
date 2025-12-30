@@ -38,6 +38,7 @@ artifacts/
 # User-specific files
 appsettings.Development.json
 appsettings.Local.json
+appsettings.json
 
 # API Keys - IMPORTANT!
 secrets.json
