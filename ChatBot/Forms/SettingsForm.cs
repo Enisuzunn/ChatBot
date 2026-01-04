@@ -15,9 +15,9 @@ namespace ChatBot.Forms
 
         private void LoadModels()
         {
-            cmbModel.Items.Add("gemini-1.5-flash");
+            cmbModel.Items.Add("gemini-2.0-flash");
+            cmbModel.Items.Add("gemini-2.0-flash-lite");
             cmbModel.Items.Add("gemini-1.5-pro");
-            cmbModel.Items.Add("gemini-1.0-pro");
             cmbModel.SelectedIndex = 0;
         }
 
@@ -33,7 +33,7 @@ namespace ChatBot.Forms
             }
 
             _geminiService.SetApiKey(apiKey);
-            _geminiService.SetModel(cmbModel.SelectedItem?.ToString() ?? "gemini-1.5-flash");
+            _geminiService.SetModel(cmbModel.SelectedItem?.ToString() ?? "gemini-2.0-flash");
 
             MessageBox.Show("Ayarlar kaydedildi!", "Başarılı", 
                 MessageBoxButtons.OK, MessageBoxIcon.Information);

@@ -8,7 +8,7 @@ namespace ChatBot.Services
     {
         private readonly HttpClient _httpClient;
         private string _apiKey = string.Empty;
-        private string _model = "gemini-1.5-flash";
+        private string _model = "gemini-2.0-flash";
         private const string BaseUrl = "https://generativelanguage.googleapis.com/v1beta/models";
 
         public bool IsConfigured => !string.IsNullOrWhiteSpace(_apiKey);
