@@ -49,7 +49,8 @@ namespace ChatBot.Forms
         {
             cmbModel.Items.Add("gemini-2.0-flash");
             cmbModel.Items.Add("gemini-2.0-flash-lite");
-            cmbModel.Items.Add("gemini-1.5-pro");
+            cmbModel.Items.Add("gemini-1.5-flash");
+            cmbModel.Items.Add("gemini-2.5-flash-preview-05-20");
             cmbModel.SelectedIndex = 0;
         }
 
