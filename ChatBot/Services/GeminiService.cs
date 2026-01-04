@@ -7,7 +7,7 @@ namespace ChatBot.Services
     public class GeminiService : IGeminiService
     {
         private readonly HttpClient _httpClient;
-        private string _apiKey = "AIzaSyBm2WGHe9MCZpfh3h9TcAEMLIasJoyrpNE";
+        private string _apiKey = "AIzaSyBEaNx5_RxDQXrtUdNq14u2pj0MjabhNaE";
         private string _model = "gemini-2.0-flash";
         private const string BaseUrl = "https://generativelanguage.googleapis.com/v1beta/models";
 
